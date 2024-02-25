@@ -1,0 +1,36 @@
+nav.categories {
+    min-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.doc {
+    display: flex;
+    border: 2px solid rgb(47, 57, 255);
+    background-color: rgb(255, 60, 0);
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(10, 228, 217);
+    border: 2px solid rgb(5, 117, 148);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, border-radius 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: rgb(5, 117, 148);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: brown;
+}
+
